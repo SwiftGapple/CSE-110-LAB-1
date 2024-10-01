@@ -1,0 +1,214 @@
+
+
+
+.div1 {
+    background-color: rgb(245, 240, 230);
+}
+
+#S1 {
+    scroll-margin-top: 144px;
+}
+
+.div2 {
+    background-image: url("resource/bg-orbs-1.jpg");
+    background-size: cover;
+    background-position: center;
+    scroll-margin-top: 144px;
+}
+
+#S2 {
+    scroll-margin-top: 144px;
+}
+
+
+.my-text1 {
+    font-size: 24px;
+}
+
+.my-text2 {
+    font-size: 24px;
+    color: white;
+}
+
+.my-image1 {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover
+}
+
+.my-image2 {
+    max-width: 100%;
+}
+
+.my-image3 {
+    max-width: 100%;
+}
+
+ul {
+    position: sticky;
+    top: 0px;
+    scroll-margin-top: 144px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li a {
+    float: left;
+    font-size: 28px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #182b49;
+}
+
+
+.div3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(400px, auto);
+    max-height: 500px;
+    overflow: scroll;
+    scroll-margin-top: 144px;
+}
+
+#S2 {
+    scroll-margin-top: 144px;
+}
+
+.one {
+    font-size: 24px;
+    grid-column: 1;
+    grid-row: 1;
+    width: 300px;
+    color: white;
+    background-color: #182b49;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.two {
+    font-size: 24px;
+    grid-column: 2;
+    grid-row: 1;
+    width: 300px;
+    color: white;
+    background-color: #182b49;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.three {
+    font-size: 24px;
+    grid-column: 3;
+    grid-row: 1;
+    width: 300px;
+    color: white;
+    background-color: #182b49;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.four {
+    font-size: 24px;
+    grid-column: 4;
+    grid-row: 1;
+    width: 300px;
+    color: white;
+    background-color: #182b49;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+    ul {
+        display: none;
+    }
+    .my-image1 {
+        width: 400px;
+        max-width: 75%;
+        height: auto;
+        object-fit: cover
+    }
+    #S1 {
+        font-size: 24px;
+    }
+    #S2 {
+        font-size: 24px;
+    }
+    #S3 {
+        font-size: 24px;
+    }
+    .my-text1 {
+        font-size: 20px;
+    }
+    .my-text2 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .div3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        grid-auto-rows: minmax(400px, auto);
+        max-height: 500px;
+        overflow: scroll;
+        scroll-margin-top: 144px;
+
+    }
+
+    .one {
+        font-size: 20px;
+        grid-column: 1;
+        grid-row: 1;
+        width: 150px;
+        color: white;
+        background-color: #182b49;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .two {
+        font-size: 20px;
+        grid-column: 2;
+        grid-row: 1;
+        width: 150px;
+        color: white;
+        background-color: #182b49;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .three {
+        font-size: 20px;
+        grid-column: 1;
+        grid-row: 2;
+        width: 150px;
+        color: white;
+        background-color: #182b49;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .four {
+        font-size: 20px;
+        grid-column: 2;
+        grid-row: 2;
+        width: 150px; 
+        color: white;
+        background-color: #182b49;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+  }
